@@ -1,0 +1,19 @@
+serial_param:
+   dev_name: /dev/ttyUSB0
+   bound_rate: 9600
+   databit: 8
+   parity: 0
+   timeout: 1000
+PTZ_param:
+   zoom_limit: 26
+   angle_unit: 100
+   tilt_down_limit: 8999
+   tilt_up_limit: 26999
+   pan_min_limit: 0
+   pan_max_limit: 35999
+   char0: 255                       #pelcod协议  同步位
+   char1: 1                       #pelcod协议  地址位
+   char2: 0                       #pelcod协议  第三位
+   
+
+   

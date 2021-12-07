@@ -1,0 +1,17 @@
+# goal
+uint8     ActionID 
+uint8     mode
+float32   pitch          #水平角度
+float32   yaw            #垂直角度       
+float32   zoom           #焦距变倍数
+uint8     pre_id     #预制位置
+---
+# result
+uint8  ActionID
+uint8  mode 
+uint8  result
+---
+# feedback
+uint8  ActionID
+string  state
+uint8   mode
